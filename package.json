@@ -1,0 +1,17 @@
+{
+  "name": "style.css",
+  "version": "1.0.0",
+  "description": "Se adjunta archivos para ser evaluados dichos archivos fueron realizado por Luciano Adriel Di Leo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Luciano Di Leo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

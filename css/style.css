@@ -1,0 +1,378 @@
+@charset "UTF-8";
+/*////////////////////////////////////Caracteristicas generales*/
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Lobster', cursive;
+  background-image: url("../img/inicio/fondInicio.png");
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px; }
+  body footer {
+    font-family: 'Lobster', cursive; }
+  body h1 {
+    animation-duration: 2s;
+    font-size: 525%;
+    color: #8b1eb6;
+    font-family: 'Lobster', cursive;
+    animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+section {
+  padding: 50px 0; }
+
+/*////////////////////////////////////Boton Flotante*/
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100; }
+
+#whatsapp-icon {
+  margin-top: 13px;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100; }
+
+/*////////////////////////////////////MENU DE NAVEGACION*/
+.navbar {
+  background-color: #0E0C17;
+  box-shadow: 0, 2px, 4px, 0 rgba(0, 0, 0, 0.05);
+  min-height: 59px;
+  font-family: 'Lobster', cursive; }
+  .navbar .nav-link {
+    color: #FCF7FF; }
+  .navbar .nav-link:hover {
+    color: #F25D27; }
+
+#iconoBarraMenu {
+  color: #F25D27;
+  font-size: 25px; }
+
+/*////////////////////////////////////FIN DE MENU DE NAVEGACION*/
+/*////////////////////////////////////Footer*/
+footer {
+  background-color: #3d3d3f;
+  padding: 9px 0;
+  text-align: center; }
+  footer h5, footer span {
+    color: #FCF7FF; }
+  footer small {
+    color: #FCF7FF; }
+  footer a {
+    color: #F25D27; }
+  footer .list-inline .list-inline-item {
+    padding: 10px 15px; }
+
+#facebookIcono {
+  color: #1298f6;
+  font-size: 25px; }
+
+#instagramIcono {
+  color: #f17b0c;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 25px; }
+
+#whatsappicono {
+  color: #69cd4f;
+  font-size: 25px; }
+
+/*////////////////////////////////////Fin de Footer*/
+/*/////////////////////////////////////Inicio*/
+#tituloInicio {
+  padding-top: 0%; }
+
+#seccionInicio {
+  background-image: url("../img/inicio/fondInicio.png");
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: #8b1eb6;
+  font-family: 'Lobster', cursive; }
+  #seccionInicio p {
+    animation-duration: 4s;
+    font-size: 225%;
+    animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center; }
+
+/*////////////////////////////////////Seccion Promociones*/
+#seccionPromociones {
+  margin-top: -90px;
+  margin-bottom: 200px; }
+
+#tituloPromociones {
+  margin-bottom: -80px; }
+
+.carousel {
+  min-height: 240px;
+  padding: 40px;
+  border-radius: 2px;
+  text-align: center; }
+  .carousel .carousel-item h5 {
+    color: #FCF7FF; }
+  .carousel .carousel-item p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #8b1eb6; }
+  .carousel .carousel-container {
+    max-width: 800px;
+    margin: 0 auto; }
+  .carousel i {
+    color: #0E0C17;
+    font-size: 25px; }
+
+.card-body h2 {
+  font-size: 50px; }
+
+/*////////////////////////////////////Fin de Secciones Promociones*/
+/*////////////////////////////////////Fin de Inicio*/
+/*/////////////////////////////////////Productos*/
+#seccionAlimentos {
+  padding: 4px;
+  padding-bottom: 150px; }
+  #seccionAlimentos img {
+    border-radius: 20px; }
+  #seccionAlimentos p {
+    animation-duration: 4s;
+    font-size: 225%;
+    color: #8b1eb6;
+    font-family: 'Lobster', cursive;
+    animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  #seccionAlimentos h2 {
+    color: #8b1eb6;
+    font-family: 'Lobster', cursive;
+    padding: 4px 0 1px; }
+  #seccionAlimentos h3 {
+    color: #8b1eb6;
+    font-family: 'Lobster', cursive; }
+  #seccionAlimentos .content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    padding-top: 35px; }
+  #seccionAlimentos .member-container {
+    position: relative;
+    margin: 10px 0; }
+  #seccionAlimentos .member-details {
+    position: absolute;
+    bottom: 0;
+    left: 20px; }
+    #seccionAlimentos .member-details span {
+      font-size: 20px;
+      margin-bottom: 2px;
+      color: #FCF7FF;
+      font-weight: 800; }
+    #seccionAlimentos .member-details i {
+      padding: 0 5px; }
+    #seccionAlimentos .member-details ion-icon {
+      color: #FCF7FF; }
+    #seccionAlimentos .member-details h4 {
+      color: #FCF7FF;
+      margin-bottom: 5px;
+      font-weight: 900; }
+
+.member-container {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s; }
+
+.member-container:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+#productosFinal {
+  padding-top: 70px; }
+
+/*////////////////////////////////////Fin de Productos*/
+/*/////////////////////////////////////Nosotros*/
+#tituloNosotros {
+  padding-bottom: 10px; }
+  #tituloNosotros p {
+    animation-duration: 4s;
+    font-size: 20px;
+    color: #8b1eb6;
+    font-family: 'Lobster', cursive;
+    animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*////////////////////////////////////Team*/
+#cocineros p {
+  font-size: 30px; }
+
+#cocineros img {
+  border-radius: 20px; }
+
+#cocineros h2 {
+  color: #8b1eb6;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  padding: 4px 0 1px; }
+
+#cocineros .member-container {
+  position: relative;
+  margin: 10px 0; }
+
+#cocineros .member-details {
+  position: absolute;
+  bottom: 0;
+  left: 20px; }
+  #cocineros .member-details span {
+    font-size: 14px;
+    color: #FCF7FF; }
+  #cocineros .member-details ion-icon {
+    color: #FCF7FF; }
+  #cocineros .member-details i {
+    padding: 0 5px; }
+  #cocineros .member-details h5 {
+    color: #FCF7FF; }
+
+.member-container {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s; }
+
+.member-container:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+/*//////////////////////////////////////Fin de Team*/
+/*/////////////////////////////////////Fin de Nosotros*/
+/*/////////////////////////////////////ReseÃ±a*/
+#tituloResena p {
+  animation-duration: 4s;
+  font-size: 20px;
+  color: #8b1eb6;
+  font-family: 'Lobster', cursive;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+#testimonial {
+  margin-top: -70px; }
+  #testimonial .carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center; }
+  #testimonial .carousel-item p {
+    font-size: 26px;
+    font-weight: 400;
+    color: blueviolet; }
+  #testimonial .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px; }
+  #testimonial .carousel-control-next, #testimonial .carousel-control-prev {
+    opacity: 1;
+    width: 5%; }
+  #testimonial .control-button {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px; }
+  #testimonial .carousel-container {
+    max-width: 800px;
+    margin: 0 auto; }
+  #testimonial .testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left; }
+  #testimonial .testimonial-user h4 {
+    margin-bottom: 0px; }
+  #testimonial .testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center; }
+  #testimonial .rating i {
+    font-size: 20px;
+    color: yellow; }
+
+/*/////////////////////////////////////Fin de reseÃ±a*/
+/*/////////////////////////////////////Contacto*/
+#contactar {
+  color: #8b1eb6;
+  font-family: 'Lobster', cursive; }
+  #contactar strong {
+    font-size: 25px; }
+  #contactar p {
+    color: #8b1eb6;
+    animation-duration: 4s;
+    font-size: 225%;
+    animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+  #contactar .form-group {
+    font-size: 20px; }
+  #contactar i {
+    font-size: 40px; }
+
+/*////////////////////////////////////Fin de Contacto */
+/*////////////////////////////////////RESOLUCION PARA DISPOSITIVOS*/
+@media (min-width: 576px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal; } }
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal; } }
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal; } }
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 40px;
+    line-height: normal; } }
